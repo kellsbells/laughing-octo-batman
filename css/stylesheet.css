@@ -1,11 +1,94 @@
 body {
-    background: url('../images/background2.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  color: #53595d;
+  background: url('../images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-main {
-  margin: 15% 0 0 60%;
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #d8605d;
 }
+
+.container-fluid {
+  margin-top: 10%; 
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+.icons img {
+  height: 25px;
+  width: 25px;
+}
+
+.text {
+  margin-top: 5%;
+}
+
+/* Tabs panel */
+.tabbable-panel {
+  margin-top: 7%;
+}
+
+/* Default mode */
+
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #fbcdcf;
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #d8605d;
+  position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tabbable-line > .tab-content {
+  border: 0;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
+.btn-default {
+  background-color: #d8605d;
+  color: white;
+  width: 100%;
+  margin: 3% 0;
+}
+
+button {
+  margin-top: 7% !important;
+  width: 50%;
+}
+
+.glyphicon {
+  font-size: 1.4em;
+}
+
